@@ -1,21 +1,25 @@
 baseURL = "http://consultationkit.com"
+DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "Consultation Kit"
-theme = "beautifulhugo"
+theme = "landingpages"
 
 [Params]
-  subtitle = "An online consulting and coaching platform made for you"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
+  calendarId = "a33e54a0-1fee-11e7-b74a-0e9b8b43f288"
+  # primary logo
+  logo = "img/logo.png"
+  coverImg = "img/bg.jpg"
+  # img pointing to calendar
+  calloutImg = "img/try-callout.png"
+  # Header Text
+  intro = "Stop wasting time with \"free\" calls"
+  introTagline = "Let your potential clients book a paid online consultation with you right from your website"
 
 
-[[menu.main]]
-    name = "Blog"
-    url = "/"
-    weight = 1
+
+[Author]
+  name = "First Bird Labs"
+  email = "info@consultationkit.com"
 
 [[menu.main]]
     name = "How It Works"
@@ -23,13 +27,13 @@ theme = "beautifulhugo"
     weight = 1
 
 [[menu.main]]
-    name = "Plan Details"
-    url = "/#plans"
+    name = "Plan Info"
+    url = "/#plan-info"
     weight = 2
 
 [[menu.main]]
     name = "FAQ"
-    url = "/frequently-asked-questions"
+    url = "/page/faq/"
     weight = 3
 
 [[menu.main]]
