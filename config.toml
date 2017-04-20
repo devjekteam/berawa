@@ -6,6 +6,7 @@ theme = "landingpages"
 
 [Params]
   calendarId = "a33e54a0-1fee-11e7-b74a-0e9b8b43f288"
+  txFee = "2.5"
   # primary logo
   logo = "img/logo.png"
   coverImg = "img/bg.jpg"

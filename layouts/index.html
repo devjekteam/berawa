@@ -32,6 +32,19 @@
 
   {{ partial "6-bullet" (dict "title" $title "id" $id "titleSub" $titleSub "heading1" $heading1 "body1" $body1 "heading2" $heading2 "body2" $body2 "heading3" $heading3 "body3" $body3 "heading4" $heading4 "body4" $body4 "heading5" $heading5 "body5" $body5 "heading6" $heading6 "body6" $body6) }}
 
+  <!-- Plans -->
+  {{ $priceTagline := "No transaction fees for 30 days"}}
+  {{ $buttonText := "Get Set Up For Free"}}
+  {{ $planDetails := slice "Unlimited Consultations" "Accept Payments Up Front From Clients" "Automatic Reminders" "Integration with 1 Google Calendar" "No Hassle and Easy to Manage"}}
+  <section class="solid-color" id="plans">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-8 col-md-offset-2">
+            {{ partial "plan-details" (dict "price" 0 "Site" .Site "priceTagline" $priceTagline "planDetails" $planDetails "buttonText" $buttonText)}}
+          </div>
+        </div>
+      </div>
+  </section>
   <!-- Can there even be content for the homepage? -->
   {{ .Content }}
 {{ end }}
