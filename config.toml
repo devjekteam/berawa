@@ -1,0 +1,38 @@
+baseURL = "http://consultationkit.com"
+languageCode = "en-us"
+title = "Consultation Kit"
+theme = "beautifulhugo"
+
+[Params]
+  subtitle = "An online consulting and coaching platform made for you"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "How It Works"
+    url = "/#how-it-works"
+    weight = 1
+
+[[menu.main]]
+    name = "Plan Details"
+    url = "/#plans"
+    weight = 2
+
+[[menu.main]]
+    name = "FAQ"
+    url = "/frequently-asked-questions"
+    weight = 3
+
+[[menu.main]]
+    name = "Login"
+    url = "https://dashboard.consultationkit.com"
+    weight = 4

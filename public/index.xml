@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Consultation Kit</title>
+    <link>http://consultationkit.com/</link>
+    <description>Recent content on Consultation Kit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Apr 2017 16:35:55 -0400</lastBuildDate>
+    
+	<atom:link href="http://consultationkit.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to install the consultation kit widget</title>
+      <link>http://consultationkit.com/blog/how-to-install-the-consultation-kit-widget/</link>
+      <pubDate>Wed, 19 Apr 2017 16:35:55 -0400</pubDate>
+      
+      <guid>http://consultationkit.com/blog/how-to-install-the-consultation-kit-widget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>http://consultationkit.com/frequently-asked-questions/</link>
+      <pubDate>Wed, 19 Apr 2017 15:45:51 -0400</pubDate>
+      
+      <guid>http://consultationkit.com/frequently-asked-questions/</guid>
+      <description>How Do I Get Paid? We integrate directly with your PayPal account so customers pay you directly. We make sure the payment goes through before we make a booking on your calendar.
+Can I Customize My Widget? Yes you can! You are able to create and adjust blocks of time that will show you as available on your widget. By default it is set Monday - Friday from 9am - 5pm in your timezone.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,66 @@
+<!-- =========================
+     FOOTER
+============================== -->
+<footer>
+
+    <div class="container">
+
+
+        <!-- <div class="social-icons-list text-center">
+            <a href="https://facebook.com/">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com/">
+                <i class="fa fa-instagram"></i>
+            </a>
+        </div>-->
+
+        <!-- COPYRIGHT TEXT -->
+        <p class="copyright text-center">
+            ©2017 Consultation Kit
+            <br>
+            Contact: info@consultationkit.com
+        </p>
+
+    </div>
+    <!-- /END CONTAINER -->
+
+</footer>
+<!-- /END FOOTER -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.consultationkit.com/widget.min.js"></script>
+<script type="text/javascript">
+  var widget = new ConsultationKit();
+  widget.init({
+    targetEl: "#demo",
+    calendar: "a33e54a0-1fee-11e7-b74a-0e9b8b43f288"
+  });
+</script>
+<script type="text/javascript">
+  $( document ).ready(function() {
+
+    $('.btn-get-started').on('click', function() {
+      // send event to google analytics on singup
+      ga('send', 'event', 'Buy Plan');
+    });
+
+    $("a[href*=\\#]:not([href=\\#])").click(function() {
+      if (location.pathname.replace(/^ \//,'') == this.pathname.replace(/^ \//,'')
+        && location.hostname == this.hostname) {
+        var $target = $(this.hash);
+        $target = $target.length && $target
+          || $('[name=' + this.hash.slice(1) +']');
+        if ($target.length) {
+          var targetOffset = $target.offset().top;
+          $('html,body')
+            .animate({scrollTop: targetOffset}, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
