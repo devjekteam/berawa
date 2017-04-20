@@ -9,7 +9,7 @@
       </button>
       {{ if .Site.Params.logo }}
         <a class="navbar-brand" title="{{ .Site.Title }}" href="{{ "/" | absLangURL }}">
-          <img class="avatar-img" src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" />
+          <img class="avatar-img" src="{{ .Site.BaseURL }}/{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" />
         </a>
       {{ end }}
     </div>
