@@ -3,8 +3,8 @@ date = "2017-04-20T14:32:08-04:00"
 subtitle = ""
 tags = []
 title = "faq"
-
 +++
+
 
 ### How Do I Get the Widget on my Website?
 

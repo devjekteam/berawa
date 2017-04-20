@@ -33,7 +33,7 @@ theme = "landingpages"
 
 [[menu.main]]
     name = "FAQ"
-    url = "/page/faq/"
+    url = "/faq/"
     weight = 3
 
 [[menu.main]]

@@ -1,6 +1,8 @@
 <header class="header" id="home" style="background: url({{ .Site.BaseURL }}{{ .Site.Params.coverImg }})">
 	<div class="see-through-blue">
 		{{ partial "nav.html" . }}
-		{{ partial "demo-widget.html" . }}
+		{{ if .IsHome }}
+			{{ partial "demo-widget.html" . }}
+		{{ end }}
 	</div>
 </header>
