@@ -1,9 +1,11 @@
 {{ define "main" }}
   <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        {{ .Content }}
+    <section>
+      <div class="container fadeInLeft animated">
+        <div class=" {{ .Params.identifier }}">
+          {{ .Content }}
+        </div>
       </div>
-    </div>
+    </section>
   </div>
 {{ end }}

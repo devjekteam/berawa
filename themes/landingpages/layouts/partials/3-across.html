@@ -1,0 +1,31 @@
+<section class="featured" id="{{ .id }}">
+	<div class="container fadeInLeft animated">
+		<div class="heading text-center">
+			<h1>{{ .title }}</h1>
+			<h5>{{ .titleSub }}</h5>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 explainer">
+				<div class="icon big">
+					<i class="fa fa-calendar-check-o"></i>
+				</div>
+				<h2> {{ .heading1 }} </h2>
+				<p> {{ .body1 }} </p>
+			</div>
+			<div class="col-sm-4 explainer">
+				<div class="icon big">
+					<i class="fa fa-credit-card"></i>
+				</div>
+				<h2> {{ .heading2 }}</h2>
+				<p> {{ .body2 }} </p>
+			</div>
+			<div class="col-sm-4 explainer">
+				<div class="icon big">
+					<i class="fa fa-bell"></i>
+				</div>
+				<h2>{{ .heading3 }}</h2>
+				<p> {{ .body3 }} </p>
+			</div>
+		</div>
+	</div>
+</section>
